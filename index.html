@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <script src="display.js"></script>
+    <script src="scriptbutton.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<select name="" id="">
+    <option value="1" id="cifra">Cifra de Cesar</option>
+    <option value="2" id="base64">Base64</option>
+</select><br><br>
+<form>
+    <input type="radio" name="contact" id="deco" onclick="display(), teste()">
+    <label for="cifra">Decodificar</label>
+    <input type="radio" name="contact" id="codec" onclick="display(), teste()">
+    <label for="base64">Codificar</label><br><br>
+    <button type="button" id="buttonx" onclick="encrypt()"></button>
+</form>
+
+    <form>
+        <h2>Input</h1>
+        <input type="text" name="" id="textform">
+        <h2 id="increase">Increase</h2>
+        <input type="number" name="" id="inputnumber">
+        <h2>Output</h2>
+        <input type="text" name="" id="outputform">
+    </form>      
+</body>
+</html>
